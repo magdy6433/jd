@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+       <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bosts ajax</title>
+</head>
+<body>
+  
+ <nav>
+   
+   <div class="logo"><h1>BRA <span>ND</span></h1></div>
+   <div class="nav-menu">
+      <ul class="nav-link">
+         <li><a class="link-item" href="#">BUSINESS</a></li>
+         <li><a class="link-item" href="#">GENERAL</a></li>
+         <li><a class="link-item" href="#">health</a></li>
+         <li><a class="link-item" href="#">sports</a></li>
+      </ul>
+   
+   </div>
+   <form action="">
+      <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="Search" data-search>
+    <i onclick="getSearchMode(this.id)" id="searchTitle" class="fa fa-search"></i>
+      
+   </form>
+ 
+<i id="bars" class="fa-solid fa-bars"></i>
+<i id="close" class="fa-solid fa-close"></i>
+ </nav>
+
+
+    <div class="container">
+
+        <h1 class="heading">our daily posts</h1>
+        <div id="rowData" class="box-container">
+
+     
+
+    
+
+     
+        </div>
+     
+        <div id="load-more"> load more </div>
+     
+     </div>
+
+     
+    <script src="js/main.js"></script>
+</body>
+</html>
